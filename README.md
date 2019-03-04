@@ -3,9 +3,7 @@
  
  **Design and Assets**: https://marvelapp.com/b391580/screen/53968974   
  **SVGs**: ```/public/svg``` directory  
- **Animation Movie**: ```/resources/animation.mp4```  
- **Principal Working Prototype**: ```/resources/prototype.app```.   
- *The Principal prototype will only work on Mac and requires the Principal app to be downloaded. https://principleformac.com/ I believe you can download a demo version. If this won't work, the Animation Movie also shows the animation, just not as nicely.*   
+ **Animation Movie**: ```/resources/animation.mp4```   
  
 # Task
  1. Create the HTML, CSS and JS to build out the complete design and animation/interactions from the Marvel App and Animation Example video.  
