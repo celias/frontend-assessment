@@ -3,14 +3,15 @@
  
  **Design and Assets**: https://marvelapp.com/b391580/screen/53968974   
  **SVGs**: ```/public/svg``` directory  
- **Animation Movie**: ```/resources/animation.mp4```   
+ **Animation Movie**: ```/resources/animation.mp4``` Reference this video to see the parallax header and bucket hover animations.     
  
 # Task
- 1. Create the HTML, CSS and JS to build out the complete design and animation/interactions from the Marvel App and Animation Example video.  
- 2. The site needs to be responsive.  
+ 1. Checkout the ```gabriella``` branch from this repo. You will make your changes/commits/push here.  
+ 2. Create the HTML, CSS and JS to build out the complete design and animation/interactions from the Marvel App and Animation Example video.  
+ 3. The site needs to be responsive.  
     1. 100% width columns on mobile.  
     2. Implement any mobile UX tweeks you think would be beneficial. We are leaving moile in your court.  
- 3. The navigation and logo...work on these last. If you have time, bonus points. If you have time to make it responsive, even more bonus points.  
+ 4. The navigation and logo...work on these last. If you have time, bonus points. If you have time to make it responsive, even more bonus points.  
  
 # Design Assets
 1. Open the marvel link https://marvelapp.com/b391580/screen/53968974  
