@@ -6,19 +6,16 @@ html, body {
   scroll-behavior: smooth;
   background-color: white;
 }
-
 header {
   align-items: center;
   display: flex;
 }
-
 nav {
   position: fixed;
   right: 135px;
   top: 63px;
   width: 406px;
 }
-
 #logo,
 nav  {
   flex: 1;
@@ -30,12 +27,10 @@ nav  {
   font-family: 'Roboto-Bold', sans-serif;
   color: white;
 }
-
 nav ul {
   display: flex;
   justify-content: space-around;
 }
-
 nav li {
   list-style: none;
   font-family: 'Roboto-Bold', sans-serif;
@@ -43,12 +38,10 @@ nav li {
   line-height: 24px;
   font-size: 16px;
 }
-
 a {
   text-decoration: none;
   color:white;
 }
-
 #hero-section {
   text-align: center;
   display: flex;
@@ -57,14 +50,12 @@ a {
   margin-top: 10%;
   margin-bottom: 5%;
 }
-
 #hero-section-text {
   display: flex;
   align-items: center;
   justify-content: center;
   display: inline-block; 
 }
-
 #roboto-l {
   display: flex;
   align-items: stretch;
@@ -73,7 +64,6 @@ a {
   font-size: 80px;
   color: white;
 }
-
 #roboto-m {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -82,7 +72,6 @@ a {
   margin: 0;
   color: white;
 }
-
 .parallax {
   background: url("../assets/vr.png") no-repeat fixed;
   background-position: center top;
@@ -103,7 +92,6 @@ a {
   display: block;
   height: 100vh;
 }
-
 .pre-content {
   text-align: center;
   width: 574px;
@@ -120,13 +108,11 @@ a {
   margin: 0 auto;
   padding: 75px 0;
 }
-
 .container {
       display: grid;
        grid-template-columns: repeat(auto-fit, minmax(574px, 1fr));
       grid-gap: 20px;
     }
-
     .itm {
       background: rgba(255, 255, 255, 0.2);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -140,6 +126,22 @@ a {
     .bucket {
       width: 100%;
     }
+  
+
+    .footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     width: 100%;
+     height: 200px;
+     background-color: #F3F3F3;
+     text-align: center;
+     margin-bottom: -50px;
+     font-size: 1em;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+    }
 
 
 @media screen and (max-width: 600px) {
@@ -151,15 +153,13 @@ a {
     display: flex;
     flex-direction: column;
   }
-
   #roboto-l {
   display: flex;
   flex-direction: column;
   font-size: 1em;
   position: relative;
 }
-
-#roboto-m {
+  #roboto-m {
   display: flex;
   flex-direction: column;
   font-size: 1em;
@@ -168,7 +168,6 @@ a {
 nav {
   display: none;
 }
-
 #logo {
   display: flex;
   flex-direction: column;
@@ -176,12 +175,11 @@ nav {
   font-size: 1em;
   position: relative;
 }
-
 .pre-content {
   display: flex;
   flex-direction: column;
   font-size: 1em;
-}
+ }
 
 }
 
